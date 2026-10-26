@@ -1,0 +1,20 @@
+{
+  "name": "talos_browser",
+  "display_name": "Browser",
+  "description": "Browser automation for this Computer.",
+  "credentials": null,
+  "transport": {
+    "type": "stdio",
+    "command": "talos",
+    "args": [
+      "--browser-mcp"
+    ],
+    "env": {},
+    "cwd": null
+  },
+  "default_install": true,
+  "browser": {
+    "api_version": 1,
+    "docker_requirements": "requirements.lock"
+  }
+}
